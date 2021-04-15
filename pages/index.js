@@ -11,6 +11,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div>
+          <img src="fantom.jpg" height={200} width={200} />
+        </div>
         <h1 className={styles.title}>The Fantom Flower</h1>
         <div className={styles.textContainer}>
           <p className={styles.description}>
@@ -23,11 +26,7 @@ export default function Home() {
               of West Hollywood.
             </p>
             <p className={styles.description}>
-              Please RSVP by submitting your email address. <br></br>For
-              immediate questions please contact:{" "}
-              <a href="mailto:alex@thefantomflower.com">
-                alex@thefantomflower.com
-              </a>
+              Please RSVP by submitting your email address.
             </p>
           </p>
         </div>
@@ -35,14 +34,8 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        For immediate questions please contact:{" "}
+        <a href="mailto:alex@thefantomflower.com">alex@thefantomflower.com</a>
       </footer>
     </div>
   );

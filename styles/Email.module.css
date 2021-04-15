@@ -1,6 +1,21 @@
-.email {
-  border: 5px solid pink;
+.inputContainer {
+  border: 5px solid black;
   padding: 1em;
   border-radius: 8px;
-  background-color: black;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: 1em;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.btn {
+  margin: 1rem;
+  background-color: #fafafa;
+  border-radius: 8px;
 }
