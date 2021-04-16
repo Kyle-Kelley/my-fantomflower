@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fantomflower-staging-231942-authRole",
+      "UnauthRoleArn": "arn:aws:iam::867632237300:role/amplify-fantomflower-staging-231942-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::867632237300:role/amplify-fantomflower-staging-231942-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-fantomflower-staging-231942-deployment",
+      "UnauthRoleName": "amplify-fantomflower-staging-231942-unauthRole",
+      "StackName": "amplify-fantomflower-staging-231942",
+      "StackId": "arn:aws:cloudformation:us-east-2:867632237300:stack/amplify-fantomflower-staging-231942/0f6237d0-9e41-11eb-810d-0265b0cf9604",
+      "AmplifyAppId": "d1nn505ntnrn61"
+    }
+  }
+}
