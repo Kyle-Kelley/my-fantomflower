@@ -25,8 +25,9 @@ const Popup = () => {
             <img src="fantom.jpg" height={50} width={50} />
             <h1>Are you 21 or over?</h1>
             <form>
-              <label>
+              <label className={styles.label}>
                 <input
+                  className={styles.checkbox}
                   id="Yes"
                   onChange={handleChange}
                   checked={checked}
@@ -35,8 +36,8 @@ const Popup = () => {
                 />
                 Yes
               </label>
-              <label>
-                <input type="checkbox" />
+              <label className={styles.label}>
+                <input className={styles.checkbox} type="checkbox" />
                 No
               </label>
             </form>
