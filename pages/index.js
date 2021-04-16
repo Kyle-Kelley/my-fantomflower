@@ -1,8 +1,25 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Email from "../components/email";
+import Popup from "../components/popup";
 
 export default function Home() {
+  // const {
+  //   DynamoDBClient,
+  //   ListTablesCommand,
+  // } = require("@aws-sdk/client-dynamodb");
+
+  // (async () => {
+  //   const client = new DynamoDBClient({ region: "us-west-2" });
+  //   const command = new ListTablesCommand({});
+  //   try {
+  //     const results = await client.send(command);
+  //     console.log(results.TableNames.join("\n"));
+  //   } catch (err) {
+  //     console.error(err);
+  //   }
+  // })();
+
   return (
     <div className={styles.container}>
       <Head>
@@ -20,10 +37,10 @@ export default function Home() {
             The Flagship location in the Historic Larrabee Recording Building at
             8811 Santa Monica Blvd.
             <p className={styles.description}>
-              We are so excited to meet the community we are hosting a Town Hall
-              on Monday May 10th at 5pm to speak about the concept, answer any
-              questions and concerns, and share out excitement about being part
-              of West Hollywood.
+              We are so excited to meet the community! We are hosting a Town
+              Hall on Monday May 10th at 5pm to speak about the concept, answer
+              any questions and concerns, and share our excitement about being
+              part of West Hollywood.
             </p>
             <p className={styles.description}>
               Please RSVP by submitting your email address.
@@ -31,11 +48,12 @@ export default function Home() {
           </p>
         </div>
         <Email />
+        <Popup />
       </main>
 
       <footer className={styles.footer}>
         For immediate questions please contact:{" "}
-        <a href="mailto:alex@thefantomflower.com">alex@thefantomflower.com</a>
+        <a href="mailto:fantomflowerla@gmail.com">fantomflowerla@gmail.com</a>
       </footer>
     </div>
   );
