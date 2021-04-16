@@ -30,3 +30,15 @@
   width: 1rem;
   height: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+  .label {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .label {
+    margin: 0;
+  }
+}
