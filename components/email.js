@@ -12,6 +12,8 @@ import axios from "axios";
 const Email = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
+  const [date, setDate] = useState("");
+  const [comment, setComment] = useState("");
 
   const handleChange = (event) => {
     const value = event.target.value;
@@ -20,6 +22,14 @@ const Email = () => {
   const handleNameChange = (event) => {
     const value = event.target.value;
     setName(value);
+  };
+  const handleDateChange = (event) => {
+    const value = event.target.value;
+    setDate(value);
+  };
+  const handleCommentChange = (event) => {
+    const value = event.target.value;
+    setComment(value);
   };
 
   // const handleSubmit = (event) => {
@@ -34,6 +44,8 @@ const Email = () => {
     const data = {
       name: name,
       email: email,
+      date: date,
+      comment: comment,
     };
     console.log(data);
     axios
@@ -67,6 +79,23 @@ const Email = () => {
         value={email}
         onChange={handleChange}
         required
+      ></input>
+      <input
+        className={styles.input}
+        type="text"
+        placeholder="Date Preferred"
+        name="date"
+        value={date}
+        onChange={handleDateChange}
+        required
+      ></input>
+      <input
+        className={styles.input}
+        type="text"
+        placeholder="Comments and/or Questions"
+        name="comment"
+        value={comment}
+        onChange={handleCommentChange}
       ></input>
       <button className={styles.btn} type="submit">
         Submit

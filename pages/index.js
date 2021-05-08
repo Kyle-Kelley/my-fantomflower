@@ -29,22 +29,28 @@ export default function Home() {
 
       <main className={styles.main}>
         <div>
-          <img src="fantom.jpg" height={200} width={200} />
+          <img src="FF-color.png" height={250} width={325} />
         </div>
         <h1 className={styles.title}>The Fantom Flower</h1>
         <div className={styles.textContainer}>
           <p className={styles.description}>
-            The Flagship location in the Historic Larrabee Recording Building at
-            8811 Santa Monica Blvd.
-            <p className={styles.description}>
-              We are so excited to meet the community! We are hosting a Town
-              Hall on Monday May 10th at 5pm to speak about the concept, answer
-              any questions and concerns, and share our excitement about being
-              part of West Hollywood.
-            </p>
-            <p className={styles.description}>
-              Please RSVP by submitting your email address.
-            </p>
+            The Flagship location is coming to the Historic Larrabee Recording
+            Studios at 8811 Santa Monica Blvd, West Hollywood, California.
+          </p>
+          <p className={styles.description}>
+            We are so excited to join the community and connect with you.
+          </p>
+          <p className={styles.description}>
+            To speak about the concept, and answer any of your questions we are
+            hosting socially distant virtual Town Halls on Monday, May 26th and
+            Monday, May 31st at 5pm.
+          </p>
+          <p className={styles.description}>
+            We are thrilled to be sharing our excitement about being part of
+            West Hollywood Community and being your neighbor.
+          </p>
+          <p className={styles.description}>
+            Please RSVP by submitting your email address below.
           </p>
         </div>
         <Email />

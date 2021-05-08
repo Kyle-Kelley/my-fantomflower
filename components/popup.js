@@ -22,7 +22,7 @@ const Popup = () => {
       {!checked && (
         <div className={styles.popupBox}>
           <div id="Popup" className={styles.popup}>
-            <img src="fantom.jpg" height={50} width={50} />
+            <img src="FF-stacked.png" height={100} width={175} />
             <h1>Are you 21 or over?</h1>
             <form>
               <label className={styles.label}>
