@@ -5,7 +5,7 @@
   background-color: #fafafa;
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 50%;
 }
 
 .input {
@@ -26,6 +26,6 @@
 
 @media screen and (max-width: 800px) {
   .inputContainer {
-    width: 65%;
+    width: 90%;
   }
 }

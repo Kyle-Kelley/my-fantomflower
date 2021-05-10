@@ -22,8 +22,13 @@
   left: 0;
 }
 
+.header {
+  font-size: 2.8rem;
+}
+
 .label {
   margin: 3rem;
+  font-size: 2.2rem;
 }
 
 .checkbox {
@@ -35,10 +40,18 @@
   .label {
     margin: 1rem;
   }
+
+  .popup {
+    max-width: 95vw;
+    width: 100%;
+    margin: auto;
+    left: 3%;
+    top: 10%;
+  }
 }
 
-@media screen and (max-width: 440px) {
+/* @media screen and (max-width: 440px) {
   .label {
     margin: 0;
   }
-}
+} */
