@@ -29,7 +29,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div>
-          <img src="FF-color.png" height={250} width={325} />
+          <img className={styles.logo} src="FF-color.png" />
         </div>
         <h1 className={styles.title}>The Fantom Flower</h1>
         <div className={styles.textContainer}>
@@ -41,12 +41,12 @@ export default function Home() {
             We are so excited to join the community and connect with you.
           </p>
           <p className={styles.description}>
-            To speak about the concept, and answer any of your questions we are
+            To speak about the concept and answer any of your questions, we are
             hosting socially distant virtual Town Halls on Monday, May 26th and
             Monday, May 31st at 5pm.
           </p>
           <p className={styles.description}>
-            We are thrilled to be sharing our excitement about being part of
+            We are thrilled to be sharing our excitement about being part of the
             West Hollywood Community and being your neighbor.
           </p>
           <p className={styles.description}>

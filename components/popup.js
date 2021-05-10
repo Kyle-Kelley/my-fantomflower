@@ -23,7 +23,7 @@ const Popup = () => {
         <div className={styles.popupBox}>
           <div id="Popup" className={styles.popup}>
             <img src="FF-stacked.png" height={100} width={175} />
-            <h1>Are you 21 or over?</h1>
+            <h1 className={styles.header}>Are you 21 or over?</h1>
             <form>
               <label className={styles.label}>
                 <input
