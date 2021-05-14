@@ -22,7 +22,7 @@
 }
 
 .logo {
-  height: 500px;
+  height: 300px;
   width: 700px;
 }
 
@@ -35,8 +35,8 @@
   align-items: center;
 }
 
-.footer img {
-  margin-left: 0.5rem;
+.footerText {
+  font-size: 1rem;
 }
 
 .footer a {
@@ -68,7 +68,7 @@
 }
 
 .description {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -122,7 +122,7 @@
 
 @media (max-width: 800px) {
   .logo {
-    height: 400px;
+    height: 250px;
     width: 600px;
   }
 }
@@ -134,7 +134,7 @@
   }
 
   .description {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .logo {

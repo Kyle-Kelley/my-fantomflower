@@ -31,7 +31,7 @@ export default function Home() {
         <div>
           <img className={styles.logo} src="FF-color.png" />
         </div>
-        <h1 className={styles.title}>The Fantom Flower</h1>
+
         <div className={styles.textContainer}>
           <p className={styles.description}>
             The Flagship location is coming to the Historic Larrabee Recording
@@ -58,8 +58,10 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        For immediate questions please contact:{" "}
-        <a href="mailto:fantomflowerla@gmail.com">fantomflowerla@gmail.com</a>
+        <p className={styles.footerText}>
+          For immediate questions please contact:{" "}
+          <a href="mailto:fantomflowerla@gmail.com">fantomflowerla@gmail.com</a>
+        </p>
       </footer>
     </div>
   );
