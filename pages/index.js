@@ -42,8 +42,8 @@ export default function Home() {
           </p>
           <p className={styles.description}>
             To speak about the concept and answer any of your questions, we are
-            hosting socially distant virtual Town Halls on Monday, May 26th and
-            Monday, May 31st at 5pm.
+            hosting socially distant virtual Town Halls on Wednesday, May 26th
+            and Monday, May 31st at 5pm.
           </p>
           <p className={styles.description}>
             We are thrilled to be sharing our excitement about being part of the
